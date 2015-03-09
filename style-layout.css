@@ -34,3 +34,28 @@ header, footer {
 	margin: 48px 0 0 0;
 	font-size: 30px;
 }
+
+/*
+	video bg
+*/
+.overlay {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 1;
+}
+
+video {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	z-index: 0;
+	object-fit: cover;
+	object-position: 0;
+}
+
+@media (max-width: 920px) {
+	video {
+		width: 920px;
+	}
+}
