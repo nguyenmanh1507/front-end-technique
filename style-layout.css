@@ -14,6 +14,8 @@ header, footer {
 }
 /* PUT CSS HERE */
 .site-header {
+	background: url('images/bg-header-05.jpg') no-repeat center center fixed;
+	background-position: cover;
 	position: relative;
 	height: 500px;
 	overflow: hidden;
