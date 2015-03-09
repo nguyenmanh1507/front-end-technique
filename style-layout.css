@@ -1,0 +1,35 @@
+/*
+	fixed-width
+*/
+/*.site-page {
+	width: 600px;
+	margin: 0 auto;
+}*/
+
+/*
+	fixed-width, right-sidebar
+*/
+.site-page {
+	width: 600px;
+	margin: 0 auto;
+}
+
+.site-main {
+	width: 100%;
+	overflow: hidden;
+}
+
+.page-content {
+	float: left;
+	width: 60%;
+}
+
+.page-sidebar {
+	float: right;
+	width: 40%;
+}
+
+/*
+	fixed-width, left-sidebar
+*/
+/
